@@ -1,0 +1,23 @@
+== DEPARTMENTS ==
+ID | NAME
+1 | Computer Science
+
+== COURSES ==
+DEPARTMENT_ID | ID | TITLE
+1 | 1 | Persistence with JPA
+
+== PEOPLE ==
+ID | EMAIL | FULL_NAME
+1 | alex@example.com | Alex Morgan
+
+== STUDENTS ==
+ID | STUDENT_NUMBER
+1 | ST-1001
+
+== INSTRUCTORS ==
+ID | OFFICE
+
+== STUDENT_COURSES ==
+COURSE_ID | STUDENT_ID
+1 | 1
+

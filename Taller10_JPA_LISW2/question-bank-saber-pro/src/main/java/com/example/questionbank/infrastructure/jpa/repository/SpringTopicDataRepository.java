@@ -1,0 +1,8 @@
+package com.example.questionbank.infrastructure.jpa.repository;
+
+import com.example.questionbank.infrastructure.jpa.record.TopicRecord;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+/** Spring Data adapter used internally by the topic repository implementation. */
+public interface SpringTopicDataRepository extends JpaRepository<TopicRecord, Long> {
+}

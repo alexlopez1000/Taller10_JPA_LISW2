@@ -1,0 +1,17 @@
+== UC1 crear pregunta ==
+{"id": 1, "type": "MULTIPLE_CHOICE", "status": "DRAFT", "authorName": "Laura Restrepo"}
+== UC3 clasificar 60/40 ==
+status: DRAFT | topic: Arquitectura de software | comps: [('COMP-DIS', '60'), ('COMP-ANA', '40')]
+== UC4 ciclo de vida ==
+submit -> PENDING_REVIEW
+start -> IN_REVIEW
+approve -> APPROVED
+publish -> PUBLISHED
+== Historial de revision (fix proxy verificado) ==
+[{"id":1,"questionId":1,"reviewerId":2,"reviewerName":"Raul Gomez","decision":"APPROVED","comments":"Clear statement","reviewedAt":"2026-10-31T13:13:07.525143"}]
+== UC5 cuestionario publicado ==
+quiz 1 Simulacro Saber Pro por Claudia Munoz | preguntas: [(1, 'PUBLISHED')]
+== UC5-error con DRAFT ==
+{"error":"Only published questions may be included in a quiz; rejected ids: [2]"} [HTTP 409]
+== GET /api/quizzes/1 (lectura fresca con proxies) ==
+{"id":1,"title":"Simulacro Saber Pro","description":"Practica","creatorId":3,"creatorName":"Claudia Munoz","createdAt":"2026-10-31T13:13:07.739476","questions":[{"id":1,"type":"MULTIPLE_CHOICE","statement":"What does the JOINED inheritance strategy produce in the relational schema of the bank?","dif

@@ -1,0 +1,14 @@
+[INFO] Running com.example.questionbank.QuestionServiceFakeRepositoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s -- in com.example.questionbank.QuestionServiceFakeRepositoryTest
+[INFO] Running com.example.questionbank.QuestionLifecycleTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.714 s -- in com.example.questionbank.QuestionLifecycleTest
+[INFO] Running com.example.questionbank.QuestionQueryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.359 s -- in com.example.questionbank.QuestionQueryTest
+[INFO] Running com.example.questionbank.QuestionPersistenceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.203 s -- in com.example.questionbank.QuestionPersistenceTest
+[INFO] Running com.example.questionbank.QuizServiceTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 s -- in com.example.questionbank.QuizServiceTest
+[INFO] Running com.example.questionbank.RelationshipMappingTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s -- in com.example.questionbank.RelationshipMappingTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS

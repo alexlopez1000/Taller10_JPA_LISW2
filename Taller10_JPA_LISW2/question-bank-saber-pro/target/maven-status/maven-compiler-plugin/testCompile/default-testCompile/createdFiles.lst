@@ -1,0 +1,11 @@
+com\example\questionbank\QuestionServiceFakeRepositoryTest$InMemoryCompetencyRepository.class
+com\example\questionbank\QuestionLifecycleTest.class
+com\example\questionbank\QuestionServiceFakeRepositoryTest.class
+com\example\questionbank\QuestionServiceFakeRepositoryTest$InMemoryTopicRepository.class
+com\example\questionbank\QuestionServiceFakeRepositoryTest$InMemoryUserRepository.class
+com\example\questionbank\QuizServiceTest.class
+com\example\questionbank\AbstractIntegrationTest.class
+com\example\questionbank\QuestionQueryTest.class
+com\example\questionbank\QuestionServiceFakeRepositoryTest$InMemoryQuestionRepository.class
+com\example\questionbank\RelationshipMappingTest.class
+com\example\questionbank\QuestionPersistenceTest.class
